@@ -8,6 +8,15 @@ Archiver a <input file> <archive file>
 Разархивировать:
 Archiver u <archive file> <output file>
 ```
+Программа использует библиотеку Zstandard.
+Установить ее можно так:
+```insltall
+sudo apt install libzstd-dev
+```
+а также
+```install2
+vcpkg install zstd
+```
 Сборка:
 ```build
 mkdir build
