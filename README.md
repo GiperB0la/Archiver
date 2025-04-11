@@ -13,7 +13,7 @@ Archiver u <archive file> <output file>
 ```insltall
 sudo apt install libzstd-dev
 ```
-а также
+или
 ```install2
 vcpkg install zstd
 ```
